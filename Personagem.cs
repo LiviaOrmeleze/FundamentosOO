@@ -34,7 +34,7 @@ namespace Fundamentos
         public virtual void batalhar(Personagem p)
         {
             bool vencedor = false;
-            while (vencedor == false) ;
+            while (vencedor == false)
             {
                 int valorAtaque = this.atacar();
                 int valorDefesaInimigo = p.defender();
@@ -60,8 +60,14 @@ namespace Fundamentos
 
                 if (this.Vida <= 0)
                 {
-                    Console.WriteLine("O Personagem " + p.Nome + " vence!";
-                    vencedor = true
+                    Console.WriteLine("O Personagem " + p.Nome + " vence!");
+                    vencedor = true;
+                }
+
+                if (p.Vida < +0)
+                {
+                    Console.WriteLine("O personagem " + this.Nome + " Venceu!");
+                    vencedor = true;
                 }
             }
 

@@ -165,11 +165,10 @@ internal class Program
         mago.apresentarSe();
         elfo.apresentarSe();
 
-        int ataque = mago.atacar();
-        int defesa = mago.defender();
-        Console.WriteLine("Força do Ataque: " + ataque);
-        Console.WriteLine("Força da Defesa: " + defesa);
+        Console.WriteLine("======================================================");
+        Console.WriteLine();
 
+        mago.batalhar(elfo);
 
     }
 
