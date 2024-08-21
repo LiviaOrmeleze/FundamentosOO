@@ -13,14 +13,9 @@ namespace Fundamentos
             Console.WriteLine("Meu nome é " + this.Nome + ", sou um mago, estou no nível  " + this.Nivel + " ,tenho " + this.Vida + " pontos de vida, minha inteligência é de " + this.Inteligencia + " pontos.");
         }
 
-
-
-
-
-
-        public override void evoluir()
-        {
-            throw new NotImplementedException();
-        }
     }
 }
+
+
+
+

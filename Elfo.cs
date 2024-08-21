@@ -17,11 +17,7 @@ namespace Fundamentos
 
 
 
-
-        public override void evoluir()
-        {
-            throw new NotImplementedException();
-        }
-
     }
+
 }
+

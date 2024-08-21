@@ -170,6 +170,7 @@ internal class Program
 
         mago.batalhar(elfo);
 
+
     }
 
 }
